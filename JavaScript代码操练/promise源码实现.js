@@ -130,4 +130,4 @@ function resolvePromise(promise2, x, resolve, reject) {
   }
 }
 
-//http://www.cnblogs.com/zhouyangla/p/10781697.html
+//参考http://www.cnblogs.com/zhouyangla/p/10781697.html
