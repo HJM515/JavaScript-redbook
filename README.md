@@ -4,11 +4,11 @@
 
 第一遍看书是初识，第二遍总结是回顾，后面就是遇到问题再回来查询、品味。
 
-### 第1章  JavaScript简介
+### [第1章  JavaScript简介](https://github.com/HJM515/JavaScript-redbook/blob/master/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/%E7%AC%AC01%E7%AB%A0%20%20JavaScript%E7%AE%80%E4%BB%8B.md)
 
-### 第2章  在HTML中使用JavaScript
+### [第2章  在HTML中使用JavaScript](https://github.com/HJM515/JavaScript-redbook/blob/master/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/%E7%AC%AC02%E7%AB%A0%20%20%E5%9C%A8HTML%E4%B8%AD%E4%BD%BF%E7%94%A8JavaScript.md)
 
-### 第3章  基本概念
+### [第3章  基本概念](https://github.com/HJM515/JavaScript-redbook/blob/master/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/%E7%AC%AC03%E7%AB%A0%20%20%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.md)
 
 ### 第4章  变量、作用域和内存问题
 
