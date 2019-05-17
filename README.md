@@ -1,3 +1,7 @@
+[TOC]
+
+
+
 # 第1章  JavaScript简介
 
 ## 1.1  JavaScript简史
@@ -373,9 +377,9 @@ null == undefined; 返回true
 **d. with****、eval：尽量避免使用，因为with和eval破坏了解释器创建和管理作用域的规则，编译过程中解释器不会对它进行优化，效率较低。eval如同一个小型的JS解释器，将传入的字符串按JS代码解释执行。**
 
 
- 
 
- 
+
+
 
 # 第5章 引用类型
 
@@ -700,7 +704,7 @@ ES6 padStart()/padEnd从头部/尾部开始自动补齐至达到指定长度。
 ​       **\0 :        NULL**
 
 
- 
+
 
 **注：a. Math.max.apply(null,arr)求数组的最小值,没有对象调用该方法,所以第一项是null , apply将一个数组转换为参数列表,传递到Math.max() .根据apply的这个特点,还可以在数组a后面追加数组b,Array.prototype.push.apply(a,b);**
 
@@ -825,9 +829,9 @@ ES6 padStart()/padEnd从头部/尾部开始自动补齐至达到指定长度。
 ​       深度克隆（对象的属性中有引用值），需要判断，如果是引用值需要再for-in循环一遍。
 
 
- 
 
- 
+
+
 
 # 第8章 BOM对象
 
@@ -1405,9 +1409,9 @@ IE7之前，document.body.clientHeight/clientWidth (混杂模式document.compatM
  
 
 
- 
 
- 
+
+
 
 # 第13章 事件
 
@@ -1618,3 +1622,6 @@ mousewheel：鼠标滚轮事件，冒泡。event.wheelDelta 上+120整数倍，�
 **（4）重新制作一份简历，投递到想去的那10家公司。bingo**
 
  
+
+
+
