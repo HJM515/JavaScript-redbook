@@ -29,7 +29,7 @@
 
 ### 第12章 DOM2和DOM3（详见第11章）
 
-### [第13章 事件](https://github.com/HJM515/JavaScript-redbook/blob/master/JavaScript-redbook/%E7%AC%AC13%E7%AB%A0%20%20%E4%BA%8B%E4%BB%B6.md)
+### [第13章 事件](https://github.com/HJM515/JavaScript-redbook/blob/master/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/%E7%AC%AC13%E7%AB%A0%20%20%E4%BA%8B%E4%BB%B6.md)
 
 未完待续...
 
