@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>防抖函数</title>
+  <style>
+    div{
+      width: 100%;
+      height: 200px;
+      background: #aaa;
+      font-size: 50px;
+      line-height: 200px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <button>cancel</button>
+
+  <script>
+    let count = 1
+    let box = document.getElementsByTagName('div')[0]
+    let btn = document.getElementsByTagName('button')[0]
+    // 防抖 一定时间内函数只执行一次，如果在这个时间间隔内再次触发函数，则会重新计算时间
+    // 应用：用户缩放浏览器 滚动停止（停止展示效果）
+    // 附加功能1：支持立即执行(并返回结果)
+    // 附加功能2：支持取消
+    // 附加功能3：避免函数执行过程报错使防抖函数失效
+    function debounce(fn,wait=500,immediate=false) {
+      let timer,rs;
+      let debounced = function(...args) {
+        if(timer) {
+          clearTimeout(timer)
+        }
+        if(immediate){
+          let flag = !timer
+          //缓存timer，将定时器设置提前，然后执行函数，避免函数执行过程报错使防抖函数失效
+          timer = setTimeout(() => {
+            timer=null
+          },wait)
+          if(flag) {
+            rs = fn.apply(this, args)
+          }
+          
+        }else{
+          timer = setTimeout(() => {
+            fn.apply(this, args)
+          },wait)
+        }
+        return rs
+      }
+      debounced.cancel = function() {
+        clearTimeout(timer)
+      }
+      return debounced
+    }
+    function updateCount() {
+      box.innerHTML = count ++
+      throw 123
+      return count
+    }
+    let action = debounce(updateCount)
+    box.addEventListener('mousemove',action,true)
+    btn.addEventListener('click', action.cancel, true)
+  </script>
+</body>
+
+</html>
