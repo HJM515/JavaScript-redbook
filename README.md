@@ -55,7 +55,7 @@
 
 # 第1章  JavaScript简介
 
-## 1.1  JavaScript简史
+## 1.1  JavaScript简史https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/24
 
 1995年  Netscape公司  NetScape Navigator 2  LiveScript  (Brendan Eich)
 
